@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Upload an image</h1>
+    <form action="/" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image">
+      <input type="submit" value="Upload">
+    </form>
+
+    {% if context %}
+        <h2>Processed Image</h2>
+        <img src="{{ context }}" alt="Processed Image">
+    {% endif %}
+    
+    
+   
+  </body>
+</html>
 
