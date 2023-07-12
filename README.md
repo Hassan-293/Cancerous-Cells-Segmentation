@@ -1,4 +1,4 @@
-# Cancer-Cells-Segmentation-Unet
+# Cancer-Cells-Segmentation-U-NET
 
 The architecture of Unet models consists of 26 convolutional layers, the datasets along with the labels has been taken from the Kaggle lizard dataset, CPM-15 and CPM-17. The model has given 91 percent validation accuracy. It was trained on the T4 GPU.
 
@@ -10,6 +10,6 @@ The architecture of Unet models consists of 26 convolutional layers, the dataset
 -flask
 
 
-# Architecture of Unet Model
+# Architecture of U-NET Model
 
 ![Screenshot 2023-07-11 144037](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/assets/88833393/60bb6529-4114-4e80-85f5-f16bee2ec592)
