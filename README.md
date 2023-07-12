@@ -9,7 +9,7 @@ The architecture of Unet models consists of 26 convolutional layers, the dataset
 -matplotlib
 -flask
 
-# Command to Run
+# Commands to Run
 
 pip install flask
 
