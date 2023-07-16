@@ -5,7 +5,7 @@ The architecture of Unet models consists of 26 convolutional layers, the dataset
 # Pre-requisites
 -tensorflow
 -keras
--OpenCv
+-Opencv
 -matplotlib
 -flask
 
@@ -17,6 +17,15 @@ create venv
 
 flask run
 
+
+#Results
+
+Accuracy: 0.91
+Precision: 0.88
+Sensitivity: 0.88
+Specitivity: 0.93
+Recall: 0.90
+  
 
 # Architecture of U-NET Model
 
