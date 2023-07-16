@@ -18,14 +18,6 @@ create venv
 flask run
 
 
-#Results
-
-Accuracy: 0.91
-Precision: 0.88
-Sensitivity: 0.88
-Specitivity: 0.93
-Recall: 0.90
-  
 
 # Architecture of U-NET Model
 
