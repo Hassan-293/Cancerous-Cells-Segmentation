@@ -7,7 +7,7 @@ Please note that while the model's performance is promising, the Kaggle lizard d
 
 For more details on the architecture, training procedure, and how to use the trained model, please refer to the documentation and code provided in this repository.
 
-# Pre-requisites
+# Pre-Requisites
 + tensorflow
 + keras
 + opencv
@@ -16,8 +16,15 @@ For more details on the architecture, training procedure, and how to use the tra
 
 
 # Architecture of U-NET Model
-
 ![Screenshot 2023-07-11 144037](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/assets/88833393/60bb6529-4114-4e80-85f5-f16bee2ec592)
 
+Datasets
++ [Lizard Dataset](https://www.kaggle.com/datasets/aadimator/lizard-dataset)
++ [CPM-15 & CPM-17](https://drive.google.com/drive/folders/1l55cv3DuY-f7-JotDN7N5nbNnjbLWchK)
+
+
 # Research Paper References
-[Lizard A Large-Scale Dataset for Colonic Nuclear Instance Segmentation and Classification.pdf](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/files/12067478/Lizard.A.Large-Scale.Dataset.for.Colonic.Nuclear.Instance.Segmentation.and.Classification.pdf)
++ [Lizard A Large-Scale Dataset for Colonic Nuclear Instance Segmentation and Classification.pdf](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/files/12067478/Lizard.A.Large-Scale.Dataset.for.Colonic.Nuclear.Instance.Segmentation.and.Classification.pdf)
+
++ [CoNIC Colon Nuclei Identification and Counting.pdf](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/files/12067619/CoNIC.Colon.Nuclei.Identification.and.Counting.pdf)
+
