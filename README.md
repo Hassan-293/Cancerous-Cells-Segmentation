@@ -16,9 +16,10 @@ For more details on the architecture, training procedure, and how to use the tra
 
 
 # Architecture of U-NET Model
-![Screenshot 2023-07-11 144037](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/assets/88833393/60bb6529-4114-4e80-85f5-f16bee2ec592)
 
 The U-Net architecture consists of an encoder-decoder structure with skip connections. The encoder part is responsible for capturing and encoding the spatial information from the input image, while the decoder part aims to reconstruct the original resolution and generate the segmentation mask. The skip connections help to bridge the gap between the encoder and decoder by combining the high-resolution features from the encoder with the upsampled features from the decoder. This allows the model to retain both local and global contextual information throughout the network.
+
+![Screenshot 2023-07-11 144037](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/assets/88833393/60bb6529-4114-4e80-85f5-f16bee2ec592)
 
 In the encoder part of the U-Net, the input image undergoes a series of convolutional and pooling layers, progressively reducing the spatial dimensions while increasing the number of channels or feature maps. This helps in learning hierarchical features at different scales. Each convolutional block is typically composed of two or more convolutional layers followed by a non-linear activation function, such as ReLU (Rectified Linear Unit), and optionally, batch normalization.
 
