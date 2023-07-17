@@ -1,5 +1,5 @@
 # Cancerous-Cells-Segmentation-U-NET
-This repository contains a U-Net model trained for image segmentation using the Kaggle lizard dataset and additional data from CPM-15 and CPM-17 datasets. The U-Net architecture in this implementation consists of 26 convolutional layers, providing a deep and complex network capable of capturing intricate image features. The model has achieved a validation accuracy of 91 percent, indicating its effectiveness in segmenting lizard images.
+This repository contains a convolutional pre-trained U-Net model trained for image segmentation using the Kaggle lizard dataset and additional data from CPM-15 and CPM-17 datasets. The U-Net architecture in this implementation consists of 26 convolutional layers, providing a deep and complex network capable of capturing intricate image features. The model has achieved a validation accuracy of 91 percent, indicating its effectiveness in segmenting lizard images.
 
 A T4 GPU was utilized to train the model, taking advantage of its powerful parallel processing capabilities to accelerate the training process. The T4 GPU provided significant computational power, enabling faster iterations and reduced training times.
 
@@ -17,8 +17,6 @@ For more details on the architecture, training procedure, and how to use the tra
 
 # Architecture of U-NET Model
 ![Screenshot 2023-07-11 144037](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/assets/88833393/60bb6529-4114-4e80-85f5-f16bee2ec592)
-
-The U-Net model is a convolutional neural network (CNN) architecture that was introduced by Ronneberger et al. in 2015. It was primarily designed for image segmentation tasks, where the goal is to classify and segment different objects or regions within an image. The U-Net architecture has since become a popular choice for various medical image analysis applications.
 
 The U-Net architecture consists of an encoder-decoder structure with skip connections. The encoder part is responsible for capturing and encoding the spatial information from the input image, while the decoder part aims to reconstruct the original resolution and generate the segmentation mask. The skip connections help to bridge the gap between the encoder and decoder by combining the high-resolution features from the encoder with the upsampled features from the decoder. This allows the model to retain both local and global contextual information throughout the network.
 
