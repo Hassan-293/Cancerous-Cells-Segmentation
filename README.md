@@ -1,4 +1,4 @@
-# Cancer-Cells-Segmentation-U-NET
+# Cancerous-Cells-Segmentation-U-NET
 This repository contains a U-Net model trained for image segmentation using the Kaggle lizard dataset and additional data from CPM-15 and CPM-17 datasets. The U-Net architecture in this implementation consists of 26 convolutional layers, providing a deep and complex network capable of capturing intricate image features. The model has achieved a validation accuracy of 91 percent, indicating its effectiveness in segmenting lizard images.
 
 To train the model, a T4 GPU was utilized, taking advantage of its powerful parallel processing capabilities to accelerate the training process. The T4 GPU provided significant computational power, enabling faster iterations and reduced training times.
