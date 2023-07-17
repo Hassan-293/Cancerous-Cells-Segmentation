@@ -38,7 +38,7 @@ Overall, the U-Net model has proven to be highly effective in various image segm
 + [CPM-15 & CPM-17](https://drive.google.com/drive/folders/1l55cv3DuY-f7-JotDN7N5nbNnjbLWchK)
 
 
-# Research Paper References
+# Related Work
 + [Lizard A Large-Scale Dataset for Colonic Nuclear Instance Segmentation and Classification.pdf](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/files/12067478/Lizard.A.Large-Scale.Dataset.for.Colonic.Nuclear.Instance.Segmentation.and.Classification.pdf)
 
 + [CoNIC Colon Nuclei Identification and Counting.pdf](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/files/12067619/CoNIC.Colon.Nuclei.Identification.and.Counting.pdf)
