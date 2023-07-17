@@ -18,7 +18,7 @@ For more details on the architecture, training procedure, and how to use the tra
 # Architecture of U-NET Model
 ![Screenshot 2023-07-11 144037](https://github.com/Hassan-293/Cancerous-Cells-Segmentation/assets/88833393/60bb6529-4114-4e80-85f5-f16bee2ec592)
 
-Datasets
+# Datasets
 + [Lizard Dataset](https://www.kaggle.com/datasets/aadimator/lizard-dataset)
 + [CPM-15 & CPM-17](https://drive.google.com/drive/folders/1l55cv3DuY-f7-JotDN7N5nbNnjbLWchK)
 
